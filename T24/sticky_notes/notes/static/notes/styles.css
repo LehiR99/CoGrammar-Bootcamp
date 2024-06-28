@@ -1,0 +1,185 @@
+/* Font Family */
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main heading */
+header h1 {
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Add padding to increase space */
+    font-size: 2rem; /* Adjust font size */
+    font-weight: bold; /* Ensure bold font weight */
+}
+
+/* Navigation links */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    background-color: #555; /* Darken background on hover */
+}
+
+/* Main content area */
+main {
+    margin: 20px;
+    padding: 20px; /* Add padding for content separation */
+    background-color: #f9f9f9; /* Light gray background */
+    border: 1px solid #ccc; /* Add border for content area */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+    max-width: 600px; /* Limit form width for readability */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Remove border and padding for inline forms */
+.note-actions form {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    border: none;
+    background: none;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+/* Button styles */
+button.btn-save,
+button.btn-cancel,
+button.btn-edit,
+button.btn-delete,
+button.btn-create {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+button.btn-save {
+    background-color: #28a745;
+}
+
+button.btn-save:hover {
+    background-color: #218838;
+}
+
+button.btn-cancel {
+    background-color: #dc3545;
+}
+
+button.btn-cancel:hover {
+    background-color: #c82333;
+}
+
+button.btn-edit {
+    background-color: #007bff;
+    margin-right: 5px; /* Add margin to the right of the edit button */
+}
+
+button.btn-edit:hover {
+    background-color: #0056b3;
+}
+
+button.btn-delete {
+    background-color: #dc3545;
+}
+
+button.btn-delete:hover {
+    background-color: #c82333;
+}
+
+button.btn-create {
+    background-color: #28a745;
+}
+
+button.btn-create:hover {
+    background-color: #218838;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Note list styles */
+.note-list {
+    list-style: none;
+    padding: 0;
+}
+
+.note-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.note-title {
+    font-size: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.note-title:hover {
+    text-decoration: underline;
+}
+
+.note-actions {
+    display: flex;
+    align-items: center;
+}
+
+.note-content {
+    margin: 0;
+}

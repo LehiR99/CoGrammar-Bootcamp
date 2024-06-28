@@ -1,0 +1,5 @@
+Allow users to create tasks
+allow users to delete tasks
+allow users to update title
+allow users to view tasks
+allow users to save tasks

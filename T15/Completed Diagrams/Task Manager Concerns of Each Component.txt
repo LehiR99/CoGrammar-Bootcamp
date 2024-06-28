@@ -1,0 +1,26 @@
+UI:
+- Display tasks (View Task, View Completed Tasks, View Pending Tasks)
+- Collect user input (Create Task, Edit Task, Assign Task, Set Due Date)
+- Provide feedback to the user (Task created successfully, Task marked as complete)
+- Admin login interface
+- Provide options to review and delete tasks
+
+Controller:
+- Handle user actions (Admin login, Create Task, View Task, Edit Task, Delete Task, Assign Task, Set Due Date, Mark Task Complete, Review Task)
+- Coordinate between UI and Model
+- Validate user input
+- Manage task assignment logic
+- Ensure secure admin authentication
+
+Model:
+- Maintain application state (current tasks, completed tasks, assigned tasks)
+- Define task structure (id, title, description, due date, priority, completed status, assigned user)
+- Manage task data (create, read, update, delete)
+- Store user credentials for admin login
+- Track task assignments and review status
+
+File:
+- Store task data persistently (tasks, completed status, due dates, priorities)
+- Store user credentials securely for admin authentication
+- Read and write operations for task data (save new tasks, update task details, delete tasks)
+- Maintain a log of task assignments and reviews

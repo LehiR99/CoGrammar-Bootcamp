@@ -1,0 +1,245 @@
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #04151F;
+    color: #EFD6AC;
+}
+
+header {
+    background: #04151F;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .header-image {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #EFD6AC;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #EFD6AC;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #EFD6AC;
+    background-color: #C44900;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #E36B00;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+form {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+section {
+    padding: 20px 0;
+    background-color: #183A37;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #EFD6AC;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+form .form-group label {
+    color: #EFD6AC;
+}
+
+form .form-control {
+    padding: 10px;
+    border: 1px solid #04151F;
+    border-radius: 5px;
+}
+
+form button {
+    align-self: flex-end;
+    background-color: #C44900;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #EFD6AC;
+}
+
+form button:hover {
+    background-color: #E36B00;
+}
+
+footer {
+    background: #04151F;
+    color: #EFD6AC;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Flexbox enhancements */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+header nav ul li {
+    display: flex;
+}
+
+form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+form .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    align-self: flex-end;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Specific enhancements for sections */
+.skills, .education, .work-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.skills ul, .work-experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.skills ul {
+    align-items: center;
+}
+
+.skills li, .work-experience li {
+    background: #04151F;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.work-experience article, .education article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #04151F;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+form .form-control {
+    background-color: #fff;
+    color: #04151F;
+}
+
+form .form-group label {
+    color: #EFD6AC;
+}
+
+form .form-control::placeholder {
+    color: #04151F;
+}

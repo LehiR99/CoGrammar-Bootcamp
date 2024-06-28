@@ -1,0 +1,21 @@
+1. What is normalization?
+Normalization is a method used to organize data efficiently in databases. It helps reduce redundancy and ensures data integrity by structuring tables and their relationships based on specific rules.
+
+2. When is a table in 1NF (First Normal Form)?
+A table reaches 1NF when:
+
+All its columns contain individual values (no arrays or groups).
+Each column has a unique name and holds unique data.
+The order of data storage doesn’t affect how it’s managed.
+3. When is a table in 2NF (Second Normal Form)?
+A table achieves 2NF when:
+
+It meets 1NF criteria.
+Every non-primary key column is fully dependent on the whole primary key, avoiding partial dependencies.
+4. When is a table in 3NF (Third Normal Form)?
+A table is in 3NF when:
+
+It satisfies 2NF conditions.
+There are no transitive dependencies, meaning no non-key column relies on another non-key column; they depend solely on the primary key.
+5. What is a foreign key?
+A foreign key in a database table connects to the primary key in another table. It ensures data consistency and maintains relationships between related tables by enforcing referential integrity. Essentially, it links data between different tables in a relational database model.
