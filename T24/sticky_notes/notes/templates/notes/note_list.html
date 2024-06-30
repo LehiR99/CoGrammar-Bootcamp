@@ -9,12 +9,12 @@
         {% for note in notes %}
             <li class="note-item">
                 <div class="note-header">
-                    <a href="{% url 'note_detail' pk=note.pk %}" class="note-title">{{ note.title }}</a>
+                    <a href="{% url 'notes:note_detail' pk=note.pk %}" class="note-title">{{ note.title }}</a>
                     <div class="note-actions">
-                        <a href="{% url 'note_edit' pk=note.pk %}">
+                        <a href="{% url 'notes:note_edit' pk=note.pk %}">
                             <button type="button" class="btn-edit">Edit</button>
                         </a>
-                        <form action="{% url 'note_delete' pk=note.pk %}" method="post">
+                        <form action="{% url 'notes:note_delete' pk=note.pk %}" method="post">
                             {% csrf_token %}
                             <button type="submit" class="btn-delete">Delete</button>
                         </form>
@@ -26,5 +26,5 @@
             <li>No notes found.</li>
         {% endfor %}
     </ul>
-    <button onclick="window.location.href='{% url 'note_new' %}'" class="btn-create">Create a New Note</button>
+    <button onclick="window.location.href='{% url 'notes:note_new' %}'" class="btn-create">Create a New Note</button>
 {% endblock %}

@@ -1,4 +1,3 @@
-<!-- note_confirm_delete.html -->
 {% extends 'base.html' %}
 
 {% block title %}Confirm Deletion - {{ note.title }}{% endblock %}
@@ -13,5 +12,5 @@
     </form>
 
     <br>
-    <button onclick="window.location.href='{% url 'note_list' %}'" class="btn-cancel">Cancel</button>
+    <button onclick="window.location.href='{% url 'notes:note_list' %}'" class="btn-cancel">Cancel</button>
 {% endblock %}
